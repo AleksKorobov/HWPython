@@ -3,7 +3,7 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19            
 
-#n = list(map(int, input().split()))
+#n = list(map(float, input().split()))
 
 n=[1.1, 1.2, 3.1, 5, 10.01]
 m=[]

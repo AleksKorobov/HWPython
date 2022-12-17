@@ -15,4 +15,3 @@ while i<len(n):
     else:
         i=i+1
 print(max(m)-min(m))
-

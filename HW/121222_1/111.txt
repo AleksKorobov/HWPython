@@ -143,5 +143,5 @@ print(m1[::-1]) -вывести в обратном порядке
 lst = list(map(int, input().split()))
 a, b =map(float, input().split())
 "формулу" палиндрома  a[::]==a[::-1]
-
+if int(a[-1])==7:
 

@@ -11,8 +11,12 @@
 # print(n>50)
 
 
-str= input()
-if str[::]==str[::-1]:
-    print("ДА")
+# 8
+
+
+m,n=map(int, input().split())
+if m%2==0:
+    print(int(m/n))
 else:
-    print("НЕТ")
+    print(f"{m} на 2 нацело не делится")
+

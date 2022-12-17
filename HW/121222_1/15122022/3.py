@@ -3,20 +3,16 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19            
 
-# ш(str))
+#n = list(map(int, input().split()))
 
-
-# n= float(input())
-# n=(n%1)*100
-# print(n>50)
-
-
-# 8
-
-
-m,n=map(int, input().split())
-if m%2==0:
-    print(int(m/n))
-else:
-    print(f"{m} на 2 нацело не делится")
+n=[1.1, 1.2, 3.1, 5, 10.01]
+m=[]
+i=0
+while i<len(n):
+    if round(n[i]%1,2)!= 0:
+        m.append(round(n[i]%1,2))
+        i=i+1
+    else:
+        i=i+1
+print(max(m)-min(m))
 

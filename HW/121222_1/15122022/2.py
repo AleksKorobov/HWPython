@@ -4,7 +4,6 @@
 # - [2, 3, 5, 6] => [12, 15]
 
 #lst = list(map(int, input().split()))
-
 lst= [2, 3, 4, 5, 6]
 import math
 i=0
